@@ -50,6 +50,9 @@ You can install this plugin from [Moodle plugins directory](https://moodle.org/p
 - Go to Site Administrations plugins setting. 
 - Select Proctoring from the activity module section to configure your plugin settings
 
+```
+  Site Administration->Plugins->Proctoring
+```
 > Use the upload user images option to add images of users for verification. You can use both BS and AWS facematch.
 ![image (1)](https://user-images.githubusercontent.com/25975674/195066855-02eee15d-6acf-44d2-b99e-a249a93b8b07.png)
 
