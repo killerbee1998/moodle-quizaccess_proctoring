@@ -21,27 +21,43 @@ Before starting the quiz, it will ask for camera permission. By accepting the pe
 - Configurable image size and capture interval
 - Facerecognition service(AWS/BS). [This feature validates the user image with profile image. You can use either Amazon Rekognition or Brainstation Facerecognition service. Please contact us(tahmina@brainstation-23.com) if you want to obtain API Key for brainstation face recognition service]
 
-
-## Configuration
+## Installation
 
 You can install this plugin from [Moodle plugins directory](https://moodle.org/plugins/quizaccess_proctoring) or can download from [Github](http://github.com/eLearning-BS23/moodle-quizaccess_proctoring).
 
+
+## Configuration
+
 > After installing the plugin, you can use the plugin by following:
 
-
-- Go to you quiz setting (Edit Quiz): 
+- Go to your quiz setting (Edit Quiz): 
 - Change the *Extra restrictions on attempts* to **must be acknowledged before starting an attempt**
 - Done!
 ```
   Dashboard->My courses->Your Course Name->Lesson->Quiz Name->Edit settings
 ```
-<img width="695" alt="4  Proctoring settings" src="https://user-images.githubusercontent.com/72008371/180333437-8913a05c-0a0c-47fc-a360-2f2f340404ac.PNG">
 
 > Now you can attempt your quiz like this:
 <img width="450" alt="2  Attempt Quiz" src="https://user-images.githubusercontent.com/72008371/180333492-9a0623b2-7576-469f-9524-436213927533.PNG">
 
 > You can check the report from Admin Site:
 <img width="955" alt="5  Proctoring summary" src="https://user-images.githubusercontent.com/72008371/180333525-d14d1bb5-698d-46e0-952f-8aea227a4d70.PNG">
+
+## Additional Settings
+
+> After installation some additional settings can be tweaked by the following:
+
+- Go to Site Administrations plugins setting. 
+- Select Proctoring from the activity module section to configure your plugin settings
+
+> Use the upload user images option to add images of users for verification. You can use both BS and AWS facematch.
+![image (1)](https://user-images.githubusercontent.com/25975674/195066855-02eee15d-6acf-44d2-b99e-a249a93b8b07.png)
+
+> When using BS facematch, the BS service API, username and password has to be entered.
+![image (2)](https://user-images.githubusercontent.com/25975674/195067903-7d7358a9-97d9-4567-9896-113105b72694.png)
+
+>For AWS facematch, only the AWS key and secret are needed.
+![image (3)](https://user-images.githubusercontent.com/25975674/195068033-d48510f0-22c0-47fe-a267-d1e415ae3b55.png)
 
 
 
